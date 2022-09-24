@@ -1,0 +1,9 @@
+.footer {
+    max-width: 100%;
+    background-color:hsl(7, 63%, 36%);
+    color: white;
+    height: 65px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+}

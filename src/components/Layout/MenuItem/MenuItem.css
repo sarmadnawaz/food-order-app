@@ -1,0 +1,26 @@
+.menu-item {
+    /* height: 14%; */
+    display: flex;
+}
+.menu-item:hover {
+    background-color: lightgray;
+}
+.menu-item-img {
+    padding: 5px 0;
+    width: 66px;
+    margin-left: 4%;
+    height: 66px;
+    border-radius: 33px;
+}
+.menu-item-detail {
+    padding: 10px 0;
+    display: flex;
+    width: 80%;
+    margin-left: 4%;
+}
+.menu-item-title {
+    flex: 1;
+}
+.menu-item-price {
+    flex : 0;
+}
