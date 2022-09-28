@@ -1,9 +1,7 @@
 .footer {
-    max-width: 100%;
-    background-color:hsl(7, 63%, 36%);
-    color: white;
-    height: 65px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 10px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid lightgray;
 }

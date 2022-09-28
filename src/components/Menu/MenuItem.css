@@ -1,6 +1,8 @@
 .menu-item {
-    /* height: 14%; */
+    flex: 1;
     display: flex;
+    align-items: center;
+    gap: 10%;
 }
 .menu-item:hover {
     background-color: lightgray;
@@ -8,19 +10,17 @@
 .menu-item-img {
     padding: 5px 0;
     width: 66px;
-    margin-left: 4%;
+    margin-left: 5%;
     height: 66px;
     border-radius: 33px;
-}
-.menu-item-detail {
-    padding: 10px 0;
-    display: flex;
-    width: 80%;
-    margin-left: 4%;
-}
+} 
 .menu-item-title {
     flex: 1;
 }
 .menu-item-price {
-    flex : 0;
+    text-align: center;
+    flex : 1;
+}  
+.flex {
+    display: flex;
 }

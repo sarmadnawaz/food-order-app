@@ -5,10 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hwb(0 22% 78%);
+  color : rgba(0, 0, 0, 0.85);
+  position: relative;
 
 }
-
+body::-webkit-scrollbar {
+  width: 0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

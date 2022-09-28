@@ -1,0 +1,22 @@
+.cart {
+    height: 70vh;
+}
+.cart-header{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+.cart-items {
+    height: 80%;
+    overflow: scroll;
+}
+.cart-items::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.cart-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    border-top: 1px solid lightgray;
+}

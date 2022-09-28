@@ -1,0 +1,17 @@
+.menu-summary{
+    width: 60%;
+    background-color: #F2F2F2;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    height: 35vh;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 1px rgb(0 0 0 / 25%);
+    overflow: scroll;
+
+}
+.menu-summary::-webkit-scrollbar{
+    width: 0px;
+}
+

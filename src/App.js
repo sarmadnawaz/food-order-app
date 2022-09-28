@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import { Header } from "./components/Layout/Header/Header"
-import { HomePage } from "./components/Layout/HomePage/HomePage"
+import { Main } from "./components/Layout/Main/Main"
 import { Footer } from "./components/Layout/Footer/Footer"
+import CartProvider from "./store/CartProvider"
 
 function App() {
   return (
-    <div>
+    <CartProvider>
       <Header />
-      <HomePage />
+      <Main />
       <Footer />
-    </div>
+    </CartProvider>
   );
 }
 
