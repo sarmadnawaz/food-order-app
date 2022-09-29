@@ -1,7 +1,7 @@
 import React from "react";
 import { HeaderCartButton } from "./HeaderCartButton";
-import { Logo } from "../../UI/Logo";
-import "./Header.css";
+import { Logo } from "../UI/Logo";
+import "../styles/Header.css";
 
 function Header() {
   return (

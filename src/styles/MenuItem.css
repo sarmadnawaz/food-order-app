@@ -24,3 +24,24 @@
 .flex {
     display: flex;
 }
+.input-form {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}   
+.input-form input {
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    border: none;
+}
+.input-form button {
+    border: none;
+    background-color: #F2F2F2;
+}

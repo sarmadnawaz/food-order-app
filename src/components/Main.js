@@ -1,7 +1,7 @@
 import React from "react";
-import { Menu } from "../../Menu/Menu"
-import { MenuSummary } from "../../Menu/MenuSummary"
-import "./Main.css";
+import { Menu } from "./Menu"
+import { MenuSummary } from "./MenuSummary"
+import "../styles/Main.css";
 
 function Main() {
   return (

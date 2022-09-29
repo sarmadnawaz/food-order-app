@@ -1,5 +1,5 @@
 import React from "react";
-import "./MenuSummary.css";
+import "../styles/MenuSummary.css";
 function MenuSummary() {
   return (
       <div className="menu-summary">

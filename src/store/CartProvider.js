@@ -20,7 +20,7 @@ const cartReducer = function (state, action) {
     }
     return {
       items: updatedItems,
-      totalAmount: state.totalAmount + action.item.price * action.item.amount,
+      totalAmount: state.totalAmount + action.item.price,
     };
   } else if (action.type === "REMOVE") {
     let updatedItems;

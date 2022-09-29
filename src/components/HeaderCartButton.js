@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import CartContext from '../../../store/cart-context';
-import { Modal } from "../../UI/Modal";
-import { Cart } from "../../Cart/Cart";
-import './HeaderCartButton.css'
+import CartContext from '../store/cart-context';
+import { Modal } from "../UI/Modal";
+import { Cart } from "./Cart";
+import '../styles/HeaderCartButton.css'
 
 function HeaderCartButton(){
     const [isOpen, setIsOpen] = React.useState(false);

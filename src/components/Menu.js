@@ -1,7 +1,7 @@
 import React from "react";
-import "./Menu.css";
+import "../styles/Menu.css";
 import { MenuItem } from "./MenuItem";
-import data from "../../config/dummData";
+import data from "../config/dummData";
 
 function Menu() {
   return (
